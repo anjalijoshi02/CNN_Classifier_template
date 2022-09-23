@@ -16,6 +16,9 @@ list_of_files=[
     f"src/{package_name}/config/__init__.py",
     f"src/{package_name}/pipeline/__init__.py",
     f"src/{package_name}/entity/__init__.py",
+    "tests/__init__.py",
+    "tests/unit/__init__.py",  # if you have created any class and you want to test that single unit , then it is called unit test
+    "tests/integration/__init__.py",  ## suppose you have created a pipeline, so to check if that pipeline will work all together , that will be checked with the help of integration testing
     "configs.config.yaml",
     "dvc.yaml",
     "params.yaml",
